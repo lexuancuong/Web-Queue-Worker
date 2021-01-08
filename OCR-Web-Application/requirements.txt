@@ -1,0 +1,8 @@
+lib-ocr[cannet]@git+ssh://git@github.com/Cinnamon/lib-ocr.git@v2.13.0
+lib-layout[jeff]@git+ssh://git@github.com/Cinnamon/lib-layout.git@v0.11.0 --find-links https://download.pytorch.org/whl/torch_stable.html
+xlsxwriter
+fastapi[all]
+sqlalchemy
+mysqlclient
+databases[mysql]
+celery

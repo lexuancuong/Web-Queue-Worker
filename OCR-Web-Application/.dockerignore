@@ -1,0 +1,6 @@
+env
+__pycache__
+lib-layout
+lib-ocr
+sql
+.git
