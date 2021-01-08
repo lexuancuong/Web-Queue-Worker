@@ -1,28 +1,5 @@
-# Kane's OnBoarding Project
-## Exercise 01:
-- Result: Finished exercise 1.
-- Time Consumed: 1 day
-- My learning after this exercise: It was too hard to set up the environment. I have struggled too much. I think it is kick-starting for me to have more projects with AI models.  
+# Web Queue Worke
 
-#### How to run Ex01's code: 
-- Step1: Download lib-layout's model and lib-ocr's model, then put them into difining model part
-```
-#Load models that was downloaded before
-layout_model = JeffLayout(weights_path='./lib-layout/layout/jeff/assets/General.pth')
-ocr_model = CannetOCR(weights_path='./lib-ocr/models/CannetOCR.pt') 
-``` 
-- Step2: Run below command  
-```
-cd Ex01-Kane-Boarding
-pip install -r requirements.txt
-```
-- Step3: Run python file
-```
-python kane_onboard.py path/to/images/folder
-```
-The result of OCR's processing is kane_onboard.xlsx
-
-### Exercise 02: Web-Queue-Worker
 #### Web-Queue-Worker (WQW) architecture 
 **Usage:**
 - Applications with a relatively simple domain, some long-running workflows/heavy task or batch operations.
