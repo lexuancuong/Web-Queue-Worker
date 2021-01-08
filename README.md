@@ -40,7 +40,7 @@ Besides:
 - Time Consumed: 3 days (include reading docs)
 - My learning after this exercise: I have read a lot of FastAPI documents. It wastes me too much time. But, after finishing this exercise by FastAPI, I see that I have more knownledge about making backend side with API, use SQLALchemy as ORM (connect Python with MySQL database). And know how to design a basic celery worker.
 
-**How to run Ex02's code**
+**How to run code**
 
 - Step1: Download lib-layout's model and lib-ocr's model, then put them into difining model part
 ```
@@ -50,7 +50,7 @@ ocr_model = CannetOCR(weights_path='./lib-ocr/models/CannetOCR.pt')
 ``` 
 - Step2: Run below command  
 ```
-cd Ex02-Kane-Boarding
+cd OCR-Web-Application
 pip install -r requirements.txt
 ```
 - Step3: Run uvicorn ASGI
